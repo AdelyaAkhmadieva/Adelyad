@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 255, 139);
+}
+
+.headerPosition{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%
+}
+
+.BlogName{
+    flex: 60%;
+    justify-content: center;
+}
+
+.logo{
+    flex: 35%
+}
+
+footer {
+    background: rgb(250, 253, 64);
+}
+
+.container{
+    padding: 30px 25px;
+}
+
+.footerColumns{
+    display: flex;
+}
+
+.footerColumn{
+    flex: 50%;
+    margin: 10px;
+}
+
+.footerColumn h3, p, a{
+    color:blueviolet;
+}
+
+small{
+    color:blueviolet;
+}
+
+
